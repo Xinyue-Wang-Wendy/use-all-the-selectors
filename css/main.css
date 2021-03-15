@@ -18,6 +18,7 @@ nav > ul {
 .logo {
   text-transform: uppercase;
 }
+
 .wrapper {
   background-color: #eee8d5;
 }
@@ -40,4 +41,24 @@ a:nth-of-type(no-highlight) {
 
 [rel="external"] {
   background-color: #2694d8;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3) {
+  background-color: #d04b16;
 }
